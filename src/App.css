@@ -15,3 +15,15 @@ body {
     background: #3d3d3d;
     background: linear-gradient(180deg, rgba(61, 61, 61, 0) 5%, rgba(29, 41, 61, 1) 25%, rgba(29, 41, 61, 1) 75%, rgba(61, 61, 61, 0) 95%);
 }
+
+.pulsingTextIndicator {
+    animation: pulsingTextIndicator 2s infinite;
+}
+
+@keyframes pulsingTextIndicator {
+    0% {opacity:0;}
+    6% {opacity:1}
+    50% {opacity:1;}
+    56% {opacity:0}
+    100% {opacity:0;}
+}

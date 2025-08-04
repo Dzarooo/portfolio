@@ -6,7 +6,7 @@ const Home = () => {
     const textArray = [
         "Hi!",
         "Cześć!",
-        "Hola!"
+        "¡Hola!"
     ]
 
     const [textIndex, setTextIndex] = useState(0);
@@ -49,8 +49,7 @@ const Home = () => {
             <div className="min-h-[10vh]"></div>
             <div className="flex-1 flex items-center justify-center flex-col">
                 <h1 className="text-8xl">
-                    {currentText}
-                    <span className="animate-pulse">|</span>
+                    {currentText}<span className="pulsingTextIndicator">|</span>
                 </h1>
                 <h1 className="text-4xl">Let me introduce myself</h1>
             </div>
