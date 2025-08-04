@@ -53,7 +53,7 @@ const Content = () => {
     return (
         <>
             <Sidebar />
-            <div className="h-screen w-full overflow-y-scroll snap-y snap-mandatory [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-slate-600 [&::-webkit-scrollbar-thumb]:rounded-full">
+            <div className="h-screen w-full overflow-y-scroll ml-[45px] snap-y snap-mandatory [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-slate-600 [&::-webkit-scrollbar-thumb]:rounded-full">
                 <section ref={homeRef} className="snap-start h-screen w-full">
                     <Home />
                 </section>

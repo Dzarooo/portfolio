@@ -20,10 +20,29 @@ body {
     animation: pulsingTextIndicator 2s infinite;
 }
 
+.starWarsText {
+    transform: perspective(800px) rotateX(25deg) scale(1);
+    transform-origin: bottom center;
+}
+
 @keyframes pulsingTextIndicator {
-    0% {opacity:0;}
-    6% {opacity:1}
-    50% {opacity:1;}
-    56% {opacity:0}
-    100% {opacity:0;}
+    0% {
+        opacity: 0;
+    }
+
+    6% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    56% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
