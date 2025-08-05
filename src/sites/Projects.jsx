@@ -4,7 +4,7 @@ const Projects = () => {
             <h1 className="text-6xl starWarsText">Featured projects</h1>
             <div className="flex gap-4 justify-center items-center flex-wrap w-[90vw]">
 
-                <div className=" bg-black/40 rounded-xl border-slate-100 border-2 w-[300px] h-[370px]">
+                <div className=" bg-black/40 rounded-xl border-slate-100 border-2 w-[300px] h-[370px] hover:[transform:translateY(-5%)_scale(1.05)] transition-[transform] z-0 hover:z-10">
                     <img className="rounded-t-xl" src="/portfolio/teachme.png"></img>
                     <div className="p-2">
                         <h2 className="text-xl text-slate-100 pb-2 border-b-2 border-b-slate-100">TeachMe</h2>
@@ -22,7 +22,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className=" bg-black/40 rounded-xl border-slate-100 border-2 w-[300px] h-[370px]">
+                <div className=" bg-black/40 rounded-xl border-slate-100 border-2 w-[300px] h-[370px] hover:[transform:translateY(-5%)_scale(1.05)] transition-[transform] z-0 hover:z-10">
                     <img className="rounded-t-xl" src="/portfolio/fotw.png"></img>
                     <div className="p-2">
                         <h2 className="text-xl text-slate-100 pb-2 border-b-2 border-b-slate-100">Fears of the West</h2>
@@ -36,7 +36,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className=" bg-black/40 rounded-xl border-slate-100 border-2 w-[300px] h-[370px]">
+                <div className=" bg-black/40 rounded-xl border-slate-100 border-2 w-[300px] h-[370px] hover:[transform:translateY(-5%)_scale(1.05)] transition-[transform] z-0 hover:z-10">
                     <img className="rounded-t-xl" src="/portfolio/flirtini.png"></img>
                     <div className="p-2">
                         <h2 className="text-xl text-slate-100 pb-2 border-b-2 border-b-slate-100">Flirtini</h2>
@@ -50,7 +50,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className=" bg-black/40 rounded-xl border-slate-100 border-2 w-[300px] h-[370px]">
+                <div className=" bg-black/40 rounded-xl border-slate-100 border-2 w-[300px] h-[370px] hover:[transform:translateY(-5%)_scale(1.05)] transition-[transform] z-0 hover:z-10">
                     <img className="rounded-t-xl" src="/portfolio/weatherapp.png"></img>
                     <div className="p-2">
                         <h2 className="text-xl text-slate-100 pb-2 border-b-2 border-b-slate-100">Weather App</h2>
@@ -65,7 +65,7 @@ const Projects = () => {
                 </div>
 
             </div>
-            
+
             <p className="text-xl">See more on my <a className="text-purple-500 hover:underline cursor-pointer" target="_blank" href="https://github.com/Dzarooo">GitHub</a></p>
         </div>
     )
