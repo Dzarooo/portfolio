@@ -64,6 +64,10 @@ const Technologies = () => {
                         <img className="flex-1 w-[90px]" src="/portfolio/js-logo.png"></img>
                         <p className="text-xl text-slate-100">JS</p>
                     </div>
+                    <div className="border-purple-300 bg-black/50 p-4 min-w-[150px] min-h-[150px] rounded-xl flex items-center justify-center flex-col border-2 hover:-translate-y-2 transition-transform">
+                        <img className="flex-1 w-[90px]" src="/portfolio/php-logo.svg"></img>
+                        <p className="text-xl text-slate-100">PHP</p>
+                    </div>
                     <div className="border-purple-600 bg-black/50 p-4 min-w-[150px] min-h-[150px] rounded-xl flex items-center justify-center flex-col border-2 hover:-translate-y-2 transition-transform">
                         <img className="flex-1 w-[75px]" src="/portfolio/csharp-logo.svg"></img>
                         <p className="text-xl text-slate-100">C#</p>
