@@ -1,27 +1,33 @@
 import { useNavigate } from "react-router-dom";
 
-const Sidebar = () => {
+const Sidebar = ({ setIsManualScrollingActive }) => {
 
     const navigate = useNavigate();
 
     const navigateTo = (site) => {
         switch (site) {
             case "home":
+                setIsManualScrollingActive(false);
                 navigate("/home");
                 break;
             case "aboutme":
-                navigate("/aboutme")
+                setIsManualScrollingActive(false);
+                navigate("/aboutme");
                 break;
             case "projects":
+                setIsManualScrollingActive(false);
                 navigate("/projects");
                 break;
             case "technologies":
+                setIsManualScrollingActive(false);
                 navigate("/technologies");
                 break;
             case "sitesource":
+                setIsManualScrollingActive(false);
                 navigate("/sitesource");
                 break;
             default:
+                setIsManualScrollingActive(false);
                 navigate("/home");
                 break;
         }
