@@ -65,6 +65,8 @@ const Projects = () => {
                 </div>
 
             </div>
+            
+            <p className="text-xl">See more on my <a className="text-purple-500 hover:underline cursor-pointer" target="_blank" href="https://github.com/Dzarooo">GitHub</a></p>
         </div>
     )
 }
