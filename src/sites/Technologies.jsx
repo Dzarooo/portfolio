@@ -1,6 +1,6 @@
 const Technologies = () => {
     return (
-        <div className="w-full h-[100vh] flex items-center justify-center ">
+        <div className="w-full min-h-[100vh] h-fit flex items-center justify-center ">
             <div className="flex items-center justify-center flex-col gap-10 w-[80vw]">
                 <h1 className="text-6xl starWarsText">Technologies I work in</h1>
                 <div className="flex gap-4 flex-wrap justify-center">

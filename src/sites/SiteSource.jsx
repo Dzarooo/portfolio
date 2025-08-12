@@ -1,6 +1,6 @@
 const SiteSource = () => {
     return (
-        <div className="w-full h-[100vh] flex items-center justify-center flex-col">
+        <div className="w-full min-h-[100vh] h-fit flex items-center justify-center flex-col">
             <div className="border-2 border-slate-100 p-2 rounded-xl flex bg-black/25 w-[1000px] h-[500px]">
                 <div className="flex-1/3 flex justify-center items-center p-2">
                     <h1 className="text-5xl text-purple-300">Get in touch with me!</h1>

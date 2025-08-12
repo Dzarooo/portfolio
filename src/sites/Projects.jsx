@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <div className="w-full h-[100vh] flex items-center justify-center flex-col gap-10">
+        <div className="w-full min-h-[100vh] h-fit flex items-center justify-center flex-col gap-10">
             <h1 className="text-6xl starWarsText">Featured projects</h1>
             <div className="flex gap-4 justify-center items-center flex-wrap w-[90vw]">
 

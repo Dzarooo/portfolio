@@ -125,23 +125,23 @@ const Content = ({ setBackground, updateBackground }) => {
         <>
             <Sidebar setIsManualScrollingActive={setIsManualScrollingActive} />
             <div ref={scrollContainerRef} className="h-screen w-calc(100vw-45px) overflow-y-scroll ml-[45px] snap-y snap-mandatory [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-slate-600 [&::-webkit-scrollbar-thumb]:rounded-full">
-                <section ref={homeRef} data-section="home" className="snap-start h-screen w-full">
+                <section ref={homeRef} data-section="home" className="snap-start min-h-screen h-fit w-full">
                     <Home />
                 </section>
 
-                <section ref={aboutMeRef} data-section="aboutme" className="snap-start h-screen w-full">
+                <section ref={aboutMeRef} data-section="aboutme" className="snap-start min-h-screen h-fit w-full">
                     <AboutMe />
                 </section>
 
-                <section ref={projectsRef} data-section="projects" className="snap-start h-screen w-full">
+                <section ref={projectsRef} data-section="projects" className="snap-start min-h-screen h-fit w-full">
                     <Projects />
                 </section>
 
-                <section ref={technologiesRef} data-section="technologies" className="snap-start h-screen w-full">
+                <section ref={technologiesRef} data-section="technologies" className="snap-start min-h-screen h-fit w-full">
                     <Technologies />
                 </section>
 
-                <section ref={siteSourceRef} data-section="sitesource" className="snap-start h-screen w-full">
+                <section ref={siteSourceRef} data-section="sitesource" className="snap-start min-h-screen h-fit w-full">
                     <SiteSource />
                 </section>
 

@@ -45,7 +45,7 @@ const Home = () => {
     }
 
     return (
-        <div className="w-full h-[100vh] flex items-center justify-center flex-col gap-4">
+        <div className="w-full min-h-[100vh] h-fit flex items-center justify-center flex-col gap-4">
             <div className="min-h-[10vh]"></div>
             <div className="flex-1 flex items-center justify-center flex-col">
                 <h1 className="text-8xl">
