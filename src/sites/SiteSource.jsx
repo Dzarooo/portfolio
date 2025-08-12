@@ -1,11 +1,11 @@
 const SiteSource = () => {
     return (
         <div className="w-full min-h-[100vh] h-fit flex items-center justify-center flex-col">
-            <div className="border-2 border-slate-100 p-2 rounded-xl flex bg-black/25 w-[1000px] h-[500px]">
+            <div className="border-2 border-slate-100 p-2 rounded-xl flex bg-black/25 w-[80vw] xl:w-[70vw] h-[500px] flex-col xl:flex-row">
                 <div className="flex-1/3 flex justify-center items-center p-2">
                     <h1 className="text-5xl text-purple-300">Get in touch with me!</h1>
                 </div>
-                <span className="bg-slate-100 w-[1.5px] h-full"></span>
+                <span className="bg-slate-100 w-[1.5px] h-full hidden xl:block"></span>
                 <div className="flex-2/3 flex flex-col justify-center gap-2 p-5">
                     <a href="https://github.com/Dzarooo" target="_blank" className="flex gap-2 items-center group hover:translate-x-2 transition-transform">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48" className="fill-slate-100 group-hover:fill-purple-300 transition-colors">

@@ -1,7 +1,7 @@
 const AboutMe = () => {
     return (
         <div className="w-full min-h-[100vh] h-fit flex items-center justify-center">
-            <div className="rounded-xl flex gap-10">
+            <div className="rounded-xl flex gap-10 flex-wrap justify-center">
                 <div className="flex flex-col gap-2">
                     <img className="w-[300px] h-[300px] object-cover object-center rounded-full" src="/portfolio/photo.png" />
                     <div className="bg-slate-800 p-2 rounded-full flex gap-2 justify-center items-center">
